@@ -9,3 +9,22 @@ p{
 .logo{
     width: 100px;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+li:hover{
+    background-color: rgb(182, 179, 179);
+    font-size: 1.2em;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
